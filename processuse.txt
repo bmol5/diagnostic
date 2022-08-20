@@ -1,15 +1,14 @@
     PID   UID %CPU %MEM  SIZE CMD
-   1184  1000  5.2  8.6 373060 /usr/bin/gnome-shell
-   2546  1000  1.7  1.3 69572 /usr/libexec/gnome-terminal-server
-   2619     0  0.9  0.0     0 [kworker/u8:3-events_unbound]
+   1184  1000  5.1  8.6 373232 /usr/bin/gnome-shell
+   2546  1000  1.4  1.3 69572 /usr/libexec/gnome-terminal-server
    1449  1000  0.5  0.3 37912 /usr/bin/ibus-daemon --panel disable
-   2506     0  0.4  0.0     0 [kworker/u8:2-flush-8:0]
-   2465     0  0.3  0.0     0 [kworker/u8:1-events_unbound]
+   2641     0  0.5  0.0     0 [kworker/u8:1-events_unbound]
       8     0  0.2  0.0     0 [kworker/u8:0-events_unbound]
-   1591  1000  0.2  3.6 180064 /snap/snap-store/582/usr/bin/snap-store --gapplication-service
    1645  1000  0.2  0.0 10660 /usr/bin/VBoxClient --draganddrop
+   2619     0  0.2  0.0     0 [kworker/u8:3-events_unbound]
+   2662     0  0.2  0.0     0 [kworker/u8:2-events_unbound]
      13     0  0.1  0.0     0 [rcu_sched]
-   1416     0  0.1  0.9 49788 /usr/libexec/packagekitd
+   1591  1000  0.1  3.6 180064 /snap/snap-store/582/usr/bin/snap-store --gapplication-service
    1671  1000  0.1  0.1 17368 /usr/libexec/ibus-engine-simple
       1     0  0.0  0.2 19816 /sbin/init splash
       2     0  0.0  0.0     0 [kthreadd]
@@ -169,6 +168,7 @@
    1384  1000  0.0  0.7 68952 /usr/libexec/evolution-addressbook-factory
    1397  1000  0.0  0.3 34572 /usr/libexec/goa-identity-service
    1405  1000  0.0  0.2 33924 /usr/libexec/gvfs-afc-volume-monitor
+   1416     0  0.0  0.9 49788 /usr/libexec/packagekitd
    1423  1000  0.0  0.2 34372 /usr/libexec/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
    1433  1000  0.0  0.7 46892 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
    1434  1000  0.0  0.1 17364 /usr/libexec/at-spi2-registryd --use-gnome-session
@@ -188,13 +188,13 @@
    1484  1000  0.0  0.2 34216 /usr/libexec/gsd-sound
    1486  1000  0.0  0.5 37944 /usr/libexec/gsd-wacom
    1541  1000  0.0  0.1 17360 /usr/libexec/ibus-memconf
-   1542  1000  0.0  0.7 43540 /usr/libexec/ibus-extension-gtk3
+   1542  1000  0.0  0.7 43556 /usr/libexec/ibus-extension-gtk3
    1544  1000  0.0  0.1 26160 /usr/libexec/gsd-disk-utility-notify
    1546  1000  0.0  1.6 76508 /usr/libexec/evolution-data-server/evolution-alarm-notify
    1551  1000  0.0  0.1 25684 /usr/libexec/ibus-portal
    1577  1000  0.0  0.3 34612 /usr/libexec/gsd-printer
    1607  1000  0.0  0.0  8724 /usr/bin/VBoxClient --clipboard
-   1608  1000  0.0  0.0 10056 /usr/bin/VBoxClient --clipboard
+   1608  1000  0.0  0.1 10192 /usr/bin/VBoxClient --clipboard
    1639  1000  0.0  0.0  8724 /usr/bin/VBoxClient --seamless
    1640  1000  0.0  0.0 10144 /usr/bin/VBoxClient --seamless
    1644  1000  0.0  0.0  8724 /usr/bin/VBoxClient --draganddrop
@@ -213,4 +213,7 @@
    2296  1000  0.0  0.6 48380 update-notifier
    2564  1000  0.0  0.1  1868 bash
    2575  1000  0.0  0.1  1868 bash
-   2620  1000  0.0  0.0  1428 ps -eo pid,uid,pcpu,%mem,size,cmd --sort -pcpu
+   2667  1000  0.0  0.1  1548 nano buildscript1.sh
+   2668     0  0.0  0.0     0 [kworker/3:2-events]
+   2671  1000  0.0  0.0   436 /bin/bash ./autoproc.sh
+   2672  1000  0.0  0.0  1428 ps -eo pid,uid,pcpu,%mem,size,cmd --sort -pcpu
